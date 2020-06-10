@@ -3,7 +3,7 @@ A linguagem de programação Python atualmente está na versão 3.8.2. No seguin
 
 Curiosos podem ir a ler no [**site oficial de Python**](https://docs.python.org/pt-br/3/using/windows.html) uma maior documentação sobre a instalação de Python no Windows 10 e problemas conhecidos. Esse link do site oficial de Python tem toda a documentação e muito mais, [AQUI](https://docs.python.org/pt-br/3/index.html).
 
-# Instalaçao de Editor de Código de Python ([IDE](https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado)) 
+# Instalaçao do Editor de Código de Python ([IDE](https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado)) 
 Tem centenas de editores de Código da Linguagem Python. Um editor recomendados nesse curso pelo Jeremias é o [VSCode](https://code.visualstudio.com/). Tem que baixar a versão de VSCode para Windows <https://code.visualstudio.com/download>.
 
 
