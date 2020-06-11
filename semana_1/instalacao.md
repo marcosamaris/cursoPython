@@ -6,4 +6,8 @@ Curiosos podem ir a ler no [**site oficial de Python**](https://docs.python.org/
 # Instalaçao do Editor de Código de Python ([IDE](https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado)) 
 Tem centenas de editores de Código da Linguagem Python. Um editor recomendados nesse curso pelo Jeremias é o [VSCode](https://code.visualstudio.com/). Tem que baixar a versão de VSCode para Windows <https://code.visualstudio.com/download>.
 
+# Instalação do Compilador de Python no Android
+Para trabalhar desde o celular podem instalar uma versão limitada, mas que dá para aproveitar muitas funcionalidades. Essa versão limitada é 	
+QPython 3L - Python for Android. Essa aplicativo podem ser baixado a instalado desde a Play Store do Google [Aqui](https://play.google.com/store/apps/details?id=org.qpython.qpy3) <https://play.google.com/store/apps/details?id=org.qpython.qpy3>.
+
 
