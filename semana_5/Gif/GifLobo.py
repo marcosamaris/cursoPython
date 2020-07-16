@@ -8,14 +8,8 @@ back = pygame.Surface((300,300))
 back.fill( (200, 0, 0) )
 
 lob = []
-lob.append( pygame.image.load("imagens/frame-1.gif") )
-lob.append( pygame.image.load("imagens/frame-2.gif") )
-lob.append( pygame.image.load("imagens/frame-3.gif") )
-lob.append( pygame.image.load("imagens/frame-4.gif") )
-lob.append( pygame.image.load("imagens/frame-5.gif") )
-lob.append( pygame.image.load("imagens/frame-6.gif") )
-lob.append( pygame.image.load("imagens/frame-7.gif") )
-lob.append( pygame.image.load("imagens/frame-8.gif") )
+for i in range(1, 9):
+    lob.append( pygame.image.load("imagens/frame-{}.gif".format(i)) ) 
 
 clock = pygame.time.Clock()
 time = 10
@@ -26,42 +20,8 @@ while True:
         if event.type == QUIT:
             pygame.quit()
     
-    screen.blit(lob[0], (0,0))
-    pygame.display.update()
-    screen.blit(back, (0,0))
-    clock.tick(time)
-
-    screen.blit(lob[1], (0,0))
-    pygame.display.update()
-    screen.blit(back, (0,0))
-    clock.tick(time)
-
-    screen.blit(lob[2], (0,0))
-    pygame.display.update()
-    screen.blit(back, (0,0))
-    clock.tick(time)
-
-    screen.blit(lob[3], (0,0))
-    pygame.display.update()
-    screen.blit(back, (0,0))
-    clock.tick(time)
-
-    screen.blit(lob[4], (0,0))
-    pygame.display.update()
-    screen.blit(back, (0,0))
-    clock.tick(time)
-
-    screen.blit(lob[5], (0,0))
-    pygame.display.update()
-    screen.blit(back, (0,0))
-    clock.tick(time)
-
-    screen.blit(lob[6], (0,0))
-    pygame.display.update()
-    screen.blit(back, (0,0))
-    clock.tick(time)
-
-    screen.blit(lob[7], (0,0))
-    pygame.display.update()
-    screen.blit(back, (0,0))
-    clock.tick(time)
+    for i in lob:
+        screen.blit(i, (0,0))
+        pygame.display.update()
+        screen.blit(back, (0,0))
+        clock.tick(time)
